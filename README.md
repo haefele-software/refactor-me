@@ -2,7 +2,7 @@
 
 ## Expectation:
 
-Improve the code through a refactoring excercise.
+Improve the code through a refactoring exercise.
 Extend the unit tests if necessary.
 Extend the solution if necessary.
 
