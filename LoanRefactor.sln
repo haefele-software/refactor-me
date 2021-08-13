@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FFF382A1-68C1-474A-BE38-A3AE43FBC4C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{09D4ACC1-3ED8-4DF5-9F17-002430120A14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A01BACE3-6972-45D8-A529-68FD4DA70783}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{2343EB93-9EED-433B-94CD-9A3E93937CC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanRefactor.Persistence", "LoanRefactor.Persistence\LoanRefactor.Persistence.csproj", "{EDB2E722-A32B-4F29-9A1B-C0A6DA22C591}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanRefactor.Domain", "LoanRefactor.Domain\LoanRefactor.Domain.csproj", "{4AF281D4-CF32-4CD7-8B1B-278176C19F33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanRefactor.Domain.Tests", "LoanRefactor.Domain.Tests\LoanRefactor.Domain.Tests.csproj", "{B6A2046F-CBF8-4453-B26E-0B196A384958}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDB2E722-A32B-4F29-9A1B-C0A6DA22C591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB2E722-A32B-4F29-9A1B-C0A6DA22C591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB2E722-A32B-4F29-9A1B-C0A6DA22C591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB2E722-A32B-4F29-9A1B-C0A6DA22C591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AF281D4-CF32-4CD7-8B1B-278176C19F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF281D4-CF32-4CD7-8B1B-278176C19F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF281D4-CF32-4CD7-8B1B-278176C19F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF281D4-CF32-4CD7-8B1B-278176C19F33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6A2046F-CBF8-4453-B26E-0B196A384958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A2046F-CBF8-4453-B26E-0B196A384958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A2046F-CBF8-4453-B26E-0B196A384958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A2046F-CBF8-4453-B26E-0B196A384958}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A01BACE3-6972-45D8-A529-68FD4DA70783} = {09D4ACC1-3ED8-4DF5-9F17-002430120A14}
+		{EDB2E722-A32B-4F29-9A1B-C0A6DA22C591} = {2343EB93-9EED-433B-94CD-9A3E93937CC7}
+		{4AF281D4-CF32-4CD7-8B1B-278176C19F33} = {FFF382A1-68C1-474A-BE38-A3AE43FBC4C5}
+		{B6A2046F-CBF8-4453-B26E-0B196A384958} = {A01BACE3-6972-45D8-A529-68FD4DA70783}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48335ABC-003A-4F23-9389-7606C95DECCF}
+	EndGlobalSection
+EndGlobal
